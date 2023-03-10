@@ -1,0 +1,318 @@
+html {
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    background: linear-gradient(
+      to bottom,
+      #E3DDD5 0%,
+      #E3DDD5 50%,
+      white 50%,
+      white 100%
+      
+    );
+    background-repeat: no-repeat;
+}
+
+.left {
+   width: 60%;
+   height: 100%;
+   padding-top: 25px;
+   margin-left: -45px;
+} 
+ .left img {
+   width: 100%;
+   height: 60%;
+}
+.right {
+    width: 40%;
+    height: 100%;
+    text-align: left;
+    padding-top: 25px;
+
+   
+}
+.right h1 {
+    padding-top: 10%;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 4.5vw;
+    margin: 0;
+    padding: 0;
+    
+}
+#outline {
+    font-family: 'Archivo Black', sans-serif;
+	color: #E3DDD5;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin: 0;
+    padding: 0;
+    
+}
+
+p {
+    
+    font-family: 'Archivo', sans-serif;
+    font-size: 2.7vw;
+    padding-top: 10%;
+    line-height: 120%;   
+  }
+  
+  @media (max-width: 576px) { 
+    body{
+       background: white;
+    }
+   .left {
+    width: 100%;
+    height: 50%;
+    margin-left: 1%;
+    margin-top: -2%;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    
+    
+ } 
+  .left img {
+    width: 100%;
+    height: 100%;
+ }
+ .right {
+     width: 60%;
+     height: 100%;
+     text-align: left;
+     margin-top: -70px;
+ 
+    
+ }
+ .right h1 {
+     font-family: 'Archivo Black', sans-serif;
+     font-size: 7vw;
+     background-color:white ;
+     width: 55%;
+     border-top-right-radius: 7px;
+     
+ }
+ #outline {
+     font-family: 'Archivo Black', sans-serif;
+     color: #E3DDD5;
+     -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: black;
+     margin: 0;
+     padding: 0;
+     
+ }
+ 
+ p {
+     
+     font-family: 'Archivo', sans-serif;
+     font-size: 3.5vw;
+     padding-top: 5%;
+     line-height: 140%;   
+   }
+ }
+ @media (min-width: 576px) and (max-width: 768px){ 
+    html {
+        height: 100%;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100%;
+        background: linear-gradient(
+          to bottom,
+          #E3DDD5 0%,
+          #E3DDD5 50%,
+          white 50%,
+          white 100%
+          
+        );
+        background-repeat: no-repeat;
+    }
+    
+    .left {
+       width: 100%;
+       height: 50%;
+        margin: 0;
+        padding-top: 10%;
+       
+    } 
+     .left img {
+       width: 100%;
+       height: 50%;
+    }
+    .right {
+        width: 100%;
+        height: 50%;
+        text-align: left;
+        
+    
+       
+    }
+    .right h1 {
+    
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 7vw;
+        margin-top: -70px;
+        background-color: white;
+        width: 4.2em;
+        border-top-right-radius: 7px;
+        padding: 0;
+        
+    }
+    #outline {
+        font-family: 'Archivo Black', sans-serif;
+        color: #E3DDD5;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    p {
+        
+        font-family: 'Archivo', sans-serif;
+        font-size: 3.5vw;
+        line-height: 120%;   
+      }
+  }
+
+@media (min-width: 768px) {
+    html {
+        height: 100%;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100%;
+        background: linear-gradient(
+          to bottom,
+          #E3DDD5 0%,
+          #E3DDD5 50%,
+          white 50%,
+          white 100%
+          
+        );
+        background-repeat: no-repeat;
+    }
+    
+    .left {
+       width: 100%;
+       height: 50%;
+        margin: 0;
+        padding-top: 10%;
+       
+    } 
+     .left img {
+       width: 100%;
+       height: 50%;
+    }
+    .right {
+        width: 100%;
+        height: 50%;
+        text-align: left;
+        
+    
+       
+    }
+    .right h1 {
+    
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 7vw;
+        margin-top: -70px;
+        background-color: white;
+        width: 4.2em;
+        border-top-right-radius: 7px;
+        padding: 0;
+        
+    }
+    #outline {
+        font-family: 'Archivo Black', sans-serif;
+        color: #E3DDD5;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    p {
+        
+        font-family: 'Archivo', sans-serif;
+        font-size: 3.5vw;
+        line-height: 120%;   
+      }
+  }
+  @media (min-width: 992px) { 
+    
+    html {
+        height: 100%;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100%;
+        background: linear-gradient(
+          to bottom,
+          #E3DDD5 0%,
+          #E3DDD5 50%,
+          white 50%,
+          white 100%
+          
+        );
+        background-repeat: no-repeat;
+    }
+    
+    .left {
+       width: 55%;
+       height: 100%;
+       padding-top: 25px;
+       margin-left: -45px;
+       padding-top: 4%;
+    } 
+     .left img {
+       width: 100%;
+       height: 60%;
+    }
+    .right {
+        width: 45%;
+        height: 100%;
+        text-align: left;
+        padding-top: 4%;
+    
+       
+    }
+    .right h1 {
+        padding-top: 0%;
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 5vw;
+        margin: 0;
+        padding: 0;
+        background: #E3DDD5;
+        
+    }
+    #outline {
+        font-family: 'Archivo Black', sans-serif;
+        color: #E3DDD5;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    p {
+        
+        font-family: 'Archivo', sans-serif;
+        font-style: italic ;
+        font-size: 2.3vw;
+        padding-top: 10%;
+        line-height: 120%;   
+      }
+      

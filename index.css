@@ -110,9 +110,11 @@ p {
      font-size: 7vw;
      background-color:white ;
      width: 33%;
-     margin-top: -12px;
+     height: 5%;
+     margin-top: -8px;
      border-top-right-radius: 7px;
      padding-left: 10px;
+    
      
  }
  #outline {
